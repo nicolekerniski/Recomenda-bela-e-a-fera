@@ -1,0 +1,252 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Bela e a Fera: Recomendações Encantadas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>A Bela e a Fera: Recomendações Encantadas</h1>
+        <p>Explore as diversas faces de um dos contos de fadas mais amados de todos os tempos.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>A Magia de "A Bela e a Fera"</h2>
+            <p>O conto clássico de "A Bela e a Fera" nos ensina sobre a beleza interior, o amor verdadeiro e a capacidade de ver além das aparências. Desde sua origem em contos populares até as adaptações modernas, a história continua a cativar corações em todo o mundo. Aqui, reunimos algumas das mais belas e impactantes recomendações para você mergulhar ainda mais nesse universo mágico.</p>
+        </section>
+
+        <section class="recommendations">
+            <div class="recommendation-card">
+                <h3>O Filme Animado da Disney (1991)</h3>
+                <img src="images/bela-e-a-fera-disney.jpg" alt="Filme animado A Bela e a Fera Disney">
+                <p>Considerado um clássico atemporal, esta animação da Disney é um marco na história do cinema. Com músicas inesquecíveis, personagens carismáticos e uma animação deslumbrante, é a porta de entrada perfeita para a história para muitos. Imperdível para todas as idades.</p>
+                <a href="https://www.disneyplus.com/pt-br/movies/beauty-and-the-beast" target="_blank">Assistir no Disney+</a>
+            </div>
+
+            <div class="recommendation-card">
+                <h3>O Conto Original de Jeanne-Marie Leprince de Beaumont</h3>
+                <img src="images/bela-e-a-fera-livro.jpg" alt="Livro A Bela e a Fera Jeanne-Marie Leprince de Beaumont">
+                <p>Para os amantes da literatura e da fonte original, a versão de 1756 de Jeanne-Marie Leprince de Beaumont é essencial. Mais curta e com nuances diferentes das adaptações mais conhecidas, oferece uma perspectiva fascinante sobre a moral e os simbolismos do conto.</p>
+                <a href="https://www.amazon.com.br/bela-fera-Jeanne-Marie-Leprince-Beaumont/dp/852543026X" target="_blank">Encontrar na Amazon</a>
+            </div>
+
+            <div class="recommendation-card">
+                <h3>O Filme Live-Action da Disney (2017)</h3>
+                <img src="images/bela-e-a-fera-live-action.jpg" alt="Filme live-action A Bela e a Fera Disney">
+                <p>Estrelado por Emma Watson, esta adaptação em live-action traz o mundo encantado de "A Bela e a Fera" à vida com visuais deslumbrantes e aprofundamento de personagens. É uma homenagem fiel à animação, com novas canções e detalhes que enriquecem a narrativa.</p>
+                <a href="https://www.disneyplus.com/pt-br/movies/beauty-and-the-beast-2017" target="_blank">Assistir no Disney+</a>
+            </div>
+
+            <div class="recommendation-card">
+                <h3>O Musical da Broadway</h3>
+                <img src="images/bela-e-a-fera-musical.jpg" alt="Musical A Bela e a Fera Broadway">
+                <p>Se você tem a oportunidade, o musical da Broadway é uma experiência mágica. Com figurinos elaborados, cenários grandiosos e a trilha sonora clássica da Disney, é uma forma vibrante e emocionante de vivenciar a história no palco.</p>
+                <a href="https://www.broadway.com/shows/beauty-and-the-beast/" target="_blank">Saiba mais sobre o Musical</a>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Compartilhe suas Recomendações!</h2>
+            <p>Qual a sua versão favorita de "A Bela e a Fera"? Tem alguma recomendação que não incluímos? Adoraríamos saber! Deixe seu comentário ou compartilhe nas redes sociais.</p>
+            <button id="show-message-btn">Quero Compartilhar!</button>
+            <p id="message-area" style="display:none; margin-top: 15px; color: #663399;">Obrigado por seu interesse! Por enquanto, esta é uma página de exemplo. Em breve, teremos um campo para seus comentários!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Recomendações Encantadas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+style.css
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #663399; /* Um roxo profundo para o cabeçalho */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #4b0082; /* Um tom de roxo mais claro */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 1.1em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recommendations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.recommendation-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fdfdfd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.recommendation-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8a2be2; /* Um roxo vibrante */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.recommendation-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.recommendation-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.recommendation-card a {
+    display: inline-block;
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.recommendation-card a:hover {
+    background-color: #6a0dad;
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 40px;
+    background-color: #e6e6fa; /* Lavanda clara */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.call-to-action h2 {
+    color: #4b0082;
+    margin-bottom: 15px;
+}
+
+.call-to-action p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.call-to-action button {
+    background-color: #ff69b4; /* Rosa choque */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.call-to-action button:hover {
+    background-color: #ff1493;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Responsividade Básica */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    .recommendations {
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+    }
+}
+script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const showMessageBtn = document.getElementById('show-message-btn');
+    const messageArea = document.getElementById('message-area');
+
+    if (showMessageBtn && messageArea) {
+        showMessageBtn.addEventListener('click', () => {
+            messageArea.style.display = 'block'; // Mostra a mensagem
+            showMessageBtn.style.display = 'none'; // Esconde o botão após o clique
+        });
+    }
+});
